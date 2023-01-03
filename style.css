@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+nav{
+    position: fixed;
+    background-color: black;
+    color: lightgray;
+    width: 100%;
+    height: 40px;
+    font-size: 14pt;
+}
+ul{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 50px;
+}
+li{
+    list-style: none;
+    margin-left: 70px;
+
+}
+li a{
+    text-decoration: none;
+    color: white;
+
+}
+main{
+    padding-top: 40px;
+
+}
+#banner_one {
+    background-image: url('./iPhone-14-Pro-camera.webp');
+    /* background-image: url('./iphone11-select-2019-family.jpg'); */
+    background-size: cover;
+    background-position-y: -150px; 
+    padding-top: 20px;
+    height: 90vh;
+    margin-bottom: 10px;
+
+}
+.banner > *{
+    display: flex;
+    justify-content: center;
+}
+.banner h1{
+    font-size: 40pt;
+}
+.banner h2{
+    font-size: 40pt;
+}
+.banner h2{
+    font-size: 26pt;
+    font-weight: lighter;
+}
+.banner a{
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(53, 53, 224);
+}
+h1{
+    color:lightgray;
+}
+.para{
+    color: black;
+}
+ #banner_two { 
+    background-image: url('./iphone11-select-2019-family.jpg');
+    
+    background-size: cover;
+    background-position-y: -50px; 
+    padding-top: 20px;
+    height: 180vh;
+    margin-bottom: 10px;
+ } 
+ #banner_three { 
+    background-image: url('./IPHONE11PROLATE20191_COLOR-GOLD_CAPACITY-ALL_720x.webp');
+    
+    background-size: cover;
+    background-position-y: 0px; 
+    padding-top: 20px;
+    height: 180vh;
+    margin-bottom: 10px;
+ } 
+ .category .box{
+    text-align: center;
+    height: 80vh;
+    width: 50%;
+    margin: 10px;
+    background-size: cover;
+    padding-top: 0px;
+    color: white;
+ }
+ .bold1{
+    color:white;
+ }
+ .bold{
+    color: black;
+ }
+ #box1{
+    background-image: url('./wwdc20-swift-student-challenge-og.webp');
+ }
+ #box2{
+    background-image: url('./watch.jpg');
+    color: black;
+ }
+ /* .my{
+    color: black;
+ } */
+ .category{
+    display: flex;
+ }
+ .category .box a{
+    text-decoration: none;
+    color: rgb(53, 53, 235);
+    font-weight: bold;
+    font-size: 14pt;
+    padding-top: 20px;
+    
+ }
+ a:hover{
+    text-decoration: underline !important;
+ }
+ #box3{
+    background-image: url('./MacBook-Pro-2021.webp');
+
+ }
+ #box4{
+    background-image: url('./m1-ipad-pro-magic-keyboards.webp');
+    
+ }
+ #box2 .label{
+    color: red;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+ }
+ .bold{
+    color: white;
+ }
+ .bold2{
+    color: black;
+ }
+ footer{
+    background-color: rgba(211, 211,211, 0.8);
+    width: 100%;
+    height: 250px;
+    
+ }
+ footer .container > *{
+    font-size: 10pt;
+    color: gray;
+ }
+ footer .container{
+    width: 80%;
+    margin: 20px auto;
+    padding-top: 20px;
+ }
