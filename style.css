@@ -16,14 +16,16 @@ nav{
     font-size: 14pt;
 }
 ul{
-    width: 80%;
-    margin: auto;
+    width: 100%;
+      margin: auto;
     display: flex;
-    padding: 10px 50px;
-}
+    padding: 10px 80px;
+    gap: 1px
+    }
 li{
     list-style: none;
-    margin-left: 70px;
+    margin-left:5%;
+    /* gap: 200px; */
 
 }
 li a{
